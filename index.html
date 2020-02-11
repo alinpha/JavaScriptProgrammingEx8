@@ -23,5 +23,31 @@
         <input type="checkbox" id="chkMyCheckBox" /> <span id="checkBoxState"></span>
     </p>
 
+    <div>
+
+        <select id="vehicleMakes">
+            <option>--Make Selection--</option>
+            <option value="10">Jeep</option>
+            <option value="20">Land Rover</option>
+            <option value="30">Toyota</option>
+        </select>
+        <p id="selectedMake"></p>
+
+    </div>
+
+    <div>
+        <label for="user">User:</label>
+        <input type="text" id="user"/>
+        <br />
+        <label for="pass">Password:</label>
+        <input type="text" id="pass"/>
+        <br />
+        <label for="repass">Repeat Password:</label>
+        <input type="text" id="repass"/>
+        <br />
+        <button onclick="loginHandler()">GO</button>
+        <p id="p-result"></p>
+    </div>
+
 </body>
 </html>
