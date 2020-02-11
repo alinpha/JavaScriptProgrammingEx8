@@ -58,3 +58,19 @@ function loginHandler() {
         target.innerHTML = 'passwords do not match';
     }
 }
+
+
+
+const vehicleModels = document.getElementById('vehicleModels');
+vehicleModels.addEventListener('change',selectionChangedModels);
+
+function selectionChangedModels(event) {
+    //console.log(event);
+    const target = document.getElementById('selectedModel');
+
+    if (event.target.selectedIndex > 0) {
+        target.innerHTML = event.target.selectedOptions[0].text;
+    } else {
+        target.innerHTML = '';
+    }
+}

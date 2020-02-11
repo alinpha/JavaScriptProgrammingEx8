@@ -42,11 +42,24 @@
         <label for="pass">Password:</label>
         <input type="password" id="pass"/>
         <br />
-        <label for="repass">Repeat Password:</label>
+        <label for="repass">Repeat:</label>
         <input type="password" id="repass"/>
         <br />
-        <button onclick="loginHandler()">GO</button>
+        <button onclick="loginHandler()">Login</button>
         <p id="p-result"></p>
+    </div>
+
+
+    <div>
+        <h2>Vehicle Models</h2>
+        <select id="vehicleModels">
+            <option>--Model Selection--</option>
+            <option value="10">Wrangler</option>
+            <option value="20">Model2</option>
+            <option value="30">Model3</option>
+        </select>
+        <p id="selectedModel"></p>
+
     </div>
 
 </body>
