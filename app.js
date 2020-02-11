@@ -1,3 +1,9 @@
+/**
+ * Author:Aline Vetrov
+ * Date: Feb.11, 2020
+ * Title: JS Ex8 - js
+ */
+
 const myDivTag = document.getElementById('myDiv');
 myDivTag.innerHTML = 'Hello World';
 
@@ -5,7 +11,7 @@ function clickHandler() {
     const inputElement = document.getElementById('firstNameInput');
     const target = document.getElementById('target-p');
     target.innerHTML = inputElement.value;
-    console.log("btn click");
+    //console.log("btn click");
 }
 
 const button = document.getElementById('btnClickMe');
@@ -16,7 +22,7 @@ chk1.addEventListener('change',showCheckBoxState);
 
 function showCheckBoxState(event) {
     //console.log(event);
-    console.log(event.target.checked);
+    //console.log(event.target.checked);
     
 }
 
