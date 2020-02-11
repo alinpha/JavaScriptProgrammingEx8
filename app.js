@@ -53,7 +53,7 @@ function loginHandler() {
     const target = document.getElementById('p-result');
 
     if (pass.value == repass.value) {
-        target.innerHTML = 'passwords match';
+        target.innerHTML = `User: ${user.value} Pwd: ${pass.value}`;
     } else {
         target.innerHTML = 'passwords do not match';
     }
