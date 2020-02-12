@@ -48,6 +48,9 @@ const user = document.getElementById('user');
 const pass = document.getElementById('pass');
 const repass = document.getElementById('repass');
 
+/**
+ * @description Login Handler
+ */
 function loginHandler() {
 
     const target = document.getElementById('p-result');
